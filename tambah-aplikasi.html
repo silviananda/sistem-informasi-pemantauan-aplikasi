@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>Tambah Data Aplikasi</title>
+</head>
+<body>
+    <h2>Tambah Data Domain</h2>
+    <form action="data.php" method="POST">
+        <label>Nama Instansi:</label>
+        <input type="text" name="nama_domain" required><br><br>
+
+        <label>Nama Domain:</label>
+        <input type="text" name="nama_domain" required><br><br>
+
+        <label>Status:</label>
+        <select name="status">
+            <option value="Aktif">Aktif</option>
+            <option value="Tidak Aktif">Tidak Aktif</option>
+            <option value="Kadaluarsa">Kadaluarsa</option>
+        </select><br><br>
+
+        <label>Tanggal Kadaluarsa:</label>
+        <input type="date" name="tanggal_kadaluarsa" required><br><br>
+
+        <button type="submit">Simpan</button>
+    </form>
+</body>
+</html>
